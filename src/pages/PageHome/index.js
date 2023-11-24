@@ -6,7 +6,7 @@ import TextoHome from '../../componentes/TextoHome'
 import Header from '../../componentes/Header'
 import Footer from '../../componentes/Footer'
 import TextoCadastro from '../../componentes/TextoCadastro'
-import NewsletterForm from '../../componentes/email'
+
 import Links from '../../componentes/Links';
 
 
@@ -31,7 +31,7 @@ function Home() {
             </div>
             <Links/>
             <TextoCadastro/>
-            {/* <NewsletterForm/> */}
+          
 
             <Footer />
         </HomeContainer>
