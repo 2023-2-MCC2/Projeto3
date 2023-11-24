@@ -3,7 +3,7 @@ import TextoAlimento from "../../componentes/TextoAlimento"
 import Header from '../../componentes/Header'
 import Footer from '../../componentes/Footer'
 import TextoCadastro from "../../componentes/TextoCadastro"
-import NewsletterForm from '../../componentes/email'
+
 const ModaContainer = styled.div`
 text-align: center;
 background-color: #EFF2DD;
@@ -15,7 +15,7 @@ function PageAlimento() {
             <Header />
             <TextoAlimento/>
             <TextoCadastro/>
-            {/* <NewsletterForm/> */}
+          
             <Footer/>
         </ModaContainer>
     )
